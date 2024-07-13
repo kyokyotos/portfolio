@@ -99,8 +99,8 @@ img {
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
-  --title-color: rgb(107, 139, 107);
-  --text-color: rgb(107, 139, 107);
+  --title-color:hsl(174, 63%, 62%);
+  --text-color: hsl(174, 63%, 62%);
   --body-color: hsl(var(--hue), 100%, 8%);
   --container-color: rgb(107, 139, 107);
 }
@@ -184,7 +184,7 @@ body.dark-theme{
 
 
 .profile__border{
-  border: 3.5px solid rgb(85, 155, 147);
+  border: 3.5px solid hsl(174, 63%, 62%);
   justify-self: center;
   width: 115px;
   height: 115px;
@@ -277,12 +277,12 @@ body.dark-theme{
   display: inline-flex;
   align-items: center;
   column-gap: .5rem;
-  background-color: rgb(85, 155, 147);
+  background-color: hsl(174, 63%, 62%);
   color:white;
   padding: 1.15rem 1.5rem;
   border-radius: .5rem;
   transition: .3s;
-  box-shadow: 0 8px 24px hsl(356, 58%, 85%);
+  box-shadow: 0 8px 24px hsl(195, 57%, 60%);
 }
 
 .button i{
@@ -290,7 +290,7 @@ body.dark-theme{
 }
 
 .button:hover{
-  background-color: rgb(188, 135, 189);
+  background-color:  rgb(103, 164, 204);
 }
 
 .button__small{
@@ -309,7 +309,7 @@ body.dark-theme{
 /*=============== FILTERS TABS ===============*/
 .filters__content{
   margin: 2rem 0 2.5rem;
-  background-color: var(--text-color-lighten);
+  background-color: var hsl(174, 63%, 62%);
   padding: .375rem;
   border-radius: .75rem;
   display: flex;
@@ -333,7 +333,7 @@ body.dark-theme{
 }
 
 .filters__button:hover{
-  background-color:  rgb(77, 109, 77);
+  background-color:  rgb(103, 164, 204);
 }
 
 /*=============== PROJECTS ===============*/
@@ -396,7 +396,7 @@ body.dark-theme{
 
 .skills__data i{
   font-size: 1rem;
-  color:hsl(356, 58%, 85%);
+  color:hsl(174, 63%, 62%);
 }
 
 .skills__name{
@@ -421,7 +421,7 @@ body.dark-theme{
 
 /* Activate button filter */
 .filter-tab-active{
-  background-color:hsl(356, 58%, 85%) ;
+  background-color: hsl(174, 63%, 62%) ;
 }
 
 
