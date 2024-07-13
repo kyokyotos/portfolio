@@ -184,7 +184,7 @@ body.dark-theme{
 
 
 .profile__border{
-  border: 3.5px solid rgb(107, 139, 107);
+  border: 3.5px solid rgb(85, 155, 147);
   justify-self: center;
   width: 115px;
   height: 115px;
@@ -277,7 +277,7 @@ body.dark-theme{
   display: inline-flex;
   align-items: center;
   column-gap: .5rem;
-  background-color: rgb(107, 139, 107);
+  background-color: rgb(85, 155, 147);
   color:white;
   padding: 1.15rem 1.5rem;
   border-radius: .5rem;
@@ -290,7 +290,7 @@ body.dark-theme{
 }
 
 .button:hover{
-  background-color: rgb(77, 109, 77);
+  background-color: rgb(188, 135, 189);
 }
 
 .button__small{
